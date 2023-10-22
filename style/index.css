@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafbfb;
+}
+
+.right {
+  width: 30%;
+  background-color: #ffffff;
+}
+
+.left h1 {
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  margin-top: 3rem;
+}
+
+.input_controller {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.input_controller label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text_field {
+  padding: 18px 20px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  border: 2px solid #e5e4e6;
+}
+
+.text_field_search{
+  padding: 18px 20px;
+  width: 70%;
+  border-radius: 8px;
+  border: none;
+  border: 2px solid #e5e4e6;
+}
+
+.forget {
+  text-align: end;
+  font-size: 14px;
+}
+
+.login_btn {
+  background-color: #013d28;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.list_item{
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+
+.list_item span{
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+}
+
+.list_item:hover{
+    background-color: #EEF8F4;
+
+}
+
+.coming{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  flex-direction: column;
+}
+
+.coming h3{
+  font-size: 40px;
+  color: #013d28;
+}
+
+.left_footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  justify-content: center;
+  gap: 10px;
+  position: fixed;
+  bottom: 2rem;
+  left: 4rem;
+  
+
+}
+
+.left_footer div img {
+  border-radius: 20px;
+}
+
+.email.error {
+  border: 1px solid rgb(248 113 113) !important;
+}
+.Lemail.error {
+  border: 1px solid rgb(248 113 113) !important;
+}
+
+.Lpassword.error {
+  border: 1px solid rgb(248 113 113) !important;
+}

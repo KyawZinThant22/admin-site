@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thone Nya || Order</title>
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="main_left">
+        <h4>Thone Nya</h4>
+
+        <div class="left_list_container">
+          <h4>OverView</h4>
+
+          <div class="list_item">
+            <ion-icon name="apps-outline"></ion-icon>
+            <span><a href="./main.html">App</a></span>
+          </div>
+        </div>
+
+        <div class="left_list_container">
+          <h4>Management</h4>
+
+          <div class="list_item">
+            <ion-icon name="person-outline"></ion-icon>
+            <span><a href="./User.html">User</a></span>
+          </div>
+
+          <div class="list_item">
+            <ion-icon name="library-outline"></ion-icon>
+            <span><a href="./Product.html">Product</a></span>
+          </div>
+
+          <div class="list_item active">
+            <ion-icon name="cart-outline"></ion-icon>
+            <span><a href="./Order.html">Order</a></span>
+          </div>
+          <div class="list_item">
+            <ion-icon name="cash-outline"></ion-icon>
+            <span><a href="./invoice.html">Invoice</a></span>
+          </div>
+        </div>
+        <div class="left_footer">
+            <div>
+                <img src="./assets/image/user2.jpeg" width="50" alt="">
+            </div>
+            <span>Kyaw Zin Thant</span>
+            <p>kyawthant035@gmail.com</p>
+        </div>
+      </div>
+      <div class="main_right">
+        <div class="top_bar">
+          <ion-icon name="search-outline"></ion-icon>
+          <div>
+            <ion-icon class="top_icon" name="notifications-outline"></ion-icon>
+            <ion-icon class="top_icon" name="people-outline"></ion-icon>
+            <ion-icon class="top_icon" name="settings-outline"></ion-icon>
+            <img
+              src="./assets/image/me.jpeg"
+              alt="kyaw zin thant "
+              width="40px"
+            />
+          </div>
+        </div>
+
+        <div class="_container">
+          <div class="heading">
+            <div>
+              <h4>Order List</h4>
+              <p>Dashboard . Order . List</p>
+            </div>
+            <button>+ New Order</button>
+          </div>
+        </div>
+
+        <div class="_container">
+          <div class="table_container">
+            <div class="table_">
+              Start
+              <input class="input_date" type="date" />
+              End
+              <input class="input_date" type="date" />
+
+              <input
+                type="text"
+                class="text_field_search"
+                placeholder="Search Customer or Order Numbers"
+              />
+            </div>
+
+            <div class="table_header">
+              <input type="checkbox" />
+              <span>Order</span>
+              <span>Customer</span>
+              <span>Date</span>
+              <span>Items</span>
+              <span>Price</span>
+              <span>Status</span>
+            </div>
+
+            <div class="table_content">
+              <input type="checkbox" />
+              <div>#77790</div>
+
+              <div class="user_content">
+                <img src="./assets/image/avatar_17.jpg" width="40" alt="" />
+
+                <span>Aung Kaung Myat</span>
+              </div>
+
+              <div>
+                <span>20/10/2023</span>
+              </div>
+              <div>10</div>
+              <div>$149</div>
+
+              <div class="actived">
+                <span>Completed</span>
+              </div>
+            </div>
+            <div class="table_content">
+              <input type="checkbox" />
+              <div>#77790</div>
+              <div class="user_content">
+                <img src="./assets/image/user2.jpeg" width="40" alt="" />
+
+                <span>Nyein Say Naing</span>
+              </div>
+              <div>
+                <span>22/10/2023</span>
+              </div>
+              <div>3</div>
+              <div>$549</div>
+
+              <div class="pending">
+                <span>Pending</span>
+              </div>
+            </div>
+            <div class="table_content">
+              <input type="checkbox" />
+              <div>#77790</div>
+              <div class="user_content">
+                <img src="./assets/image/avatar_17.jpg" width="40" alt="" />
+
+                <span>Asian Guy</span>
+              </div>
+
+              <div>
+                <span>19/10/2023</span>
+              </div>
+              <div>5</div>
+              <div>$50</div>
+
+              <div class="ban">
+                <span>Refunded</span>
+              </div>
+            </div>
+            <div class="table_content">
+              <input type="checkbox" />
+              <div>#77790</div>
+              <div class="user_content">
+                <img src="./assets/image/user3.jpeg" width="40" alt="" />
+
+                <span>Win Khant Paing</span>
+              </div>
+              <div>
+                <span>21/10/2023</span>
+              </div>
+              <div>2</div>
+              <div>$200</div>
+
+              <div class="actived">
+                <span>Completed</span>
+              </div>
+            </div>
+
+            <div class="table_content">
+              <input type="checkbox" />
+              <div>#77790</div>
+              <div class="user_content">
+                <img src="./assets/image/avatar_17.jpg" width="40" alt="" />
+
+                <span>Lin Thit Tun</span>
+              </div>
+              <div>
+                <span>21/10/2023</span>
+              </div>
+              <div>0</div>
+              <div>$200</div>
+
+              <div class="pending">
+                <span>Pending</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

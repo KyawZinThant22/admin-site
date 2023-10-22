@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThoneNay Store || Login</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <h1>Hi , Welcome back</h1>
+        <img src="./assets/image/hero.png" alt="" />
+      </div>
+      <div class="right">
+        <h1>Sign in to Thone Nya Store</h1>
+
+        <form class="form_container" onsubmit="LoginHandler(event)">
+          <div class="input_controller">
+            <label for="email">Email*</label>
+            <input
+              id="Lemail"
+              type="email"
+              class="email Lemail text_field"
+              name="email"
+              type="text"
+              placeholder="Email Address"
+            />
+            <span id="LemailError" class="naming_error"></span>
+
+          </div>
+          <div class="input_controller">
+            <label for="password">Password*</label>
+            <input
+              class="Lpassword text_field"
+              id="Lpassword"
+              name="password"
+              type="text"
+              placeholder="Password"
+            />
+            <span id="LpswError" class="naming_error"></span>
+
+          </div>
+          <a class="forget" href="">Forget Password</a>
+          <button  type="submit" class="login_btn">Login</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
